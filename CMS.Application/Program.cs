@@ -14,14 +14,15 @@ namespace CMS.Application
         static async Task Main(string[] args)
         {
             init();
-            int f = 344;
+
+            int fg = 1234;
             await items.Dump();
         }
 
         private static void init()
         {
             items.Add(new Item("Name11", 21));
-            items.Add(new Item("Name2", 22 ));
+            items.Add(new Item("Name2", 22));
             items.Add(new Item("Name3", 23));
         }
 
